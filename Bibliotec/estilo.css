@@ -1,0 +1,109 @@
+body {
+    background-color: #000; /* Define o fundo como preto (#000) */
+}
+.carousel.pointer-events-none .carousel-inner {
+    pointer-events: none;
+}
+.card-img-top {
+    height: 60vh; /* Define a altura da imagem como 40% da altura da viewport */
+    object-fit: cover; /* Mantém a proporção da imagem e preenche o espaço */
+}
+
+.card-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin: 15;
+    transition: background-color 0.3s;
+}
+.destaques {
+    background-color: #000;
+    text-align: center;
+    font-size: 100px;
+    background-image: url(./img/slide.png);
+    height: 100vh;
+}
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho em 5% */
+}
+.category-title {
+    text-align: center; /* Centraliza o texto */
+    font-size: 60px; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif; /* Escolha uma fonte bonita */
+    color: #000; /* Cor do texto */
+    width: 100%;
+    margin-bottom: 60px; /* Espaçamento inferior */
+}
+
+.card-link {
+    text-decoration: none;
+    color: #000; /* Define a cor do texto dos cartões */
+}
+
+.card {
+    margin-bottom: 60px; /* Adiciona uma margem inferior para separar os cartões */
+    height: 700px; /* Ajusta a altura dos cartões */
+}
+
+#Romance{
+    margin-top: 100px;
+}
+.custom-btn-vermais {
+    position: absolute;
+    margin-inline-start: 15px; /* Ajuste o valor conforme necessário para a margem direita desejada */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px; /* Espaço para separar o footer do conteúdo principal */
+}
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.location-info,
+.contact-form {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+}
+
+.location-info h3,
+.contact-form h3 {
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
